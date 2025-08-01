@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>passenger</title>
+  <style>
+    html,body{
+      height: 100%;
+      background-color:#FAF7F3 ;
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    }
+
+     div{
+      width:300px;
+      height: 500px;
+      background-color: #F0E4D3;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 20px;
+     }
+     button{
+      width: 200px;
+      height: 50px;
+      background-color: #DCC5B2;
+      border-radius: 10px;
+      text-transform: uppercase;
+      color: #F0E4D3;
+      font-weight:bolder;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border-color: #D9A299;
+
+   
+    }
+
+     h2,h1{
+      color: #D9A299;
+     }
+    p{
+      color: #ac997e;
+      font-weight:bolder;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1 id="wlc"></h1>
+  <h1>people entered:</h1>
+  <h2 id="counti">0</h2>
+    <button id="increment" onclick="increment()">increment</button>
+    <button id="save" onclick="save()">save</button>
+    <button id="try" onclick="tryit()" >try</button>
+    <p id="trying"></p>
+    <p id="saving">saved history:</p>
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
